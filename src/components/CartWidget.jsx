@@ -1,8 +1,8 @@
-import Cart from './assets/cart.svg'
+import Cart from '../assets/cart.svg'
 
 const CartWidget = () => {
     return (
-            <button type="button" className="btn btn-light float-right">
+            <button type="button" className="btn btn-light">
                 <img src={Cart} alt="Cart" width={50} />
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</span>
             </button>   
